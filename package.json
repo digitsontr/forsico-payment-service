@@ -1,0 +1,25 @@
+{
+  "name": "forsico-payment-service",
+  "version": "1.0.0",
+  "description": "Payment service with PayTR",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --trace-deprecation index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alperen Yurtseven",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-ejs-layouts": "^2.5.1",
+    "html": "^1.0.0",
+    "microtime": "^3.1.1",
+    "nodejs-base64-converter": "^1.0.5",
+    "path": "^0.12.7",
+    "request": "^2.88.2"
+  }
+}
